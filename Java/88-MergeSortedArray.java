@@ -28,8 +28,8 @@ class Solution {
 ```
 
 
-# Intuition
-<!-- Describe your first thoughts on how to solve this problem. 
+/* # Intuition
+Describe your first thoughts on how to solve this problem. 
 
 When merging two sorted arrays, it’s easier to start from the end because the largest elements are at the back.  
 
@@ -37,10 +37,10 @@ If we fill `nums1` from the end, we avoid overwriting values that we still need 
 
 By using three pointers — one for each array and one for the final position — we can merge efficiently in-place.
 
--->
+*/
 
-# Approach
-<!-- Describe your approach to solving the problem. 
+/* # Approach
+Describe your approach to solving the problem. 
 
 1. Initialize three pointers:
    - `i = m - 1` → last valid element in `nums1`
@@ -56,13 +56,13 @@ By using three pointers — one for each array and one for the final position �
 
 4. The array `nums1` will now be fully merged and sorted in non-decreasing order.
 
--->
+*/
 
-# Complexity
+/* # Complexity
 - Time complexity:
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
+Add your time complexity here, e.g. $$O(n)$$
 
 - Space complexity:
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
-
+Add your space complexity here, e.g. $$O(n)$$
+*/
   
